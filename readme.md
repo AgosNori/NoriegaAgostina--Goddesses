@@ -27,10 +27,10 @@ https://fonts.google.com/?query=kanit
 # Por ultimo tenemos el logo.
  
 
-
+Estilos mobile
 ![Logo](https://github.com/AgosNori/NoriegaAgostina--Goddesses/blob/master/logo.png?raw=true)
 
-Estilos mobile
+
 ![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Carrito.png)
 
 ![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Home.png)

@@ -30,4 +30,25 @@ https://fonts.google.com/?query=kanit
 
 ![Logo](https://github.com/AgosNori/NoriegaAgostina--Goddesses/blob/master/logo.png?raw=true)
 
+Estilos mobile
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Carrito.png)
 
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Home.png)
+
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Login.png)
+
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Register.png)
+
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Details%20Product.png)
+
+Estilos desktop
+
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Desktop%20-%20Home.png)
+
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Desktop%20-%20Details%20Product.png)
+
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Desktop%20-%20Login.png)
+
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Desktop%20-%20carrito.png)
+
+![Logo](https://raw.githubusercontent.com/AgosNori/NoriegaAgostina--Goddesses/master/Desktop%20-%20register.png)

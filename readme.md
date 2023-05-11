@@ -27,7 +27,7 @@ https://fonts.google.com/?query=kanit
 # Por ultimo tenemos el logo.
  
 
-Estilos mobile
+Mis diseños
 ![Logo](https://github.com/AgosNori/NoriegaAgostina--Goddesses/blob/master/img/logo.png)
 
 - [Diseños de figma](https://www.figma.com/file/gbkpE3nw4DWrmHys10LpFl/Desarrollo-IDeas?type=design&node-id=0-1&t=oxVEVePPTzxfDhV0-0)

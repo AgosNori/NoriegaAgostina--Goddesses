@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+/* estilos universales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* estilos header */
+
+.navbar {
+    background-color: #6A8E7F;
+    width: auto;
+    height: 60px;
+}
+
+ul {
+    margin-left: 76px;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+
+
+}
+
+.navbar ul li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-top: 17px;
+    margin-left: 40px;
+
+}
+
+.logo {
+    width: 16%;
+    margin-left: 607px;
+    margin-top: -13%;
+}
+
+.navbar2 ul li a {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    margin-left: 40px;
+
+}
+
+.navbar2 {
+    margin-top: -192px;
+    margin-left: 1000px;
+}
+
+/* estilos banner */
+.banner-img {
+    margin-top: 9px;
+}
+
+/* estilos tarjetas */
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    cursor: pointer;
+    width: 250px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: 203px;
+    margin-top: 30px;
+}
+
+.card:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+
+.imagen{
+    margin-left: 69px;
+}
+.boton{
+    background-color: #6A8E7F;
+    width: 80px;
+    height: 30px;
+    border: #6A8E7F;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.boton-info{
+    background-color: #6A8E7F;
+    width: 80px;
+    height: 30px;
+    border: #6A8E7F;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: -50px;
+}
+.boton:hover {
+    box-shadow: -3px 3px 0px -0.2px rgba(0, 0, 255, .2);
+    transform:scale(1.1) ;
+}
+.boton-info:hover {
+    box-shadow: -3px 3px 0px -0.2px rgba(0, 0, 255, .2);
+    transform:scale(1.1) ;
+}
+/*tarjeta2*/
+
+.card2 {
+    cursor: pointer;
+    width: 250px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: 480px;
+    margin-top: -253px;
+}
+
+.card2:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+
+/* tarjeta 3*/
+
+.card3 {
+    cursor: pointer;
+    width: 250px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: 760px;
+    margin-top: -253px;
+}
+
+.card3:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+
+/* tarjeta 4*/
+
+.card4 {
+    cursor: pointer;
+    width: 250px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: 1040px;
+    margin-top: -253px;
+}
+
+.card4:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+
+.imagen-4{
+    margin-left: 20px;
+}
+
+/* tarjeta 5 */
+.card5 {
+    cursor: pointer;
+    width: 250px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: 203px;
+    margin-top: 20px;
+}
+
+.card5:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+/* tarjeta 6 */
+.card6 {
+    cursor: pointer;
+    width: 250px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: 480px;
+    margin-top: -250px;
+}
+
+.card5:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+/* tarjeta 7 */
+.card7 {
+    cursor: pointer;
+    width: 250px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: 760px;
+    margin-top: -250px;
+}
+
+
+.card7:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+/* tarjeta 8 */
+.card8 {
+    cursor: pointer;
+    width: 250px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: 1040px;
+    margin-top: -250px;
+}
+
+
+.card8:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+/* estilos boton "register" */
+.registrarse {
+    margin-top: -7px;
+    --b: 1.5px;
+    /* border thickness */
+    --s: .40em;
+    /* size of the corner */
+    --color: #262626;
+
+    padding: calc(.2em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 15px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.registrarse:hover,
+.registrarse:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .08em;
+    background-color: white;
+    color: black;
+}
+
+.registrarse:active {
+    background-color: var(--color);
+    color: white;
+}
+/* estilos footer */
+.redes{
+    flex-direction: column;
+    background-color: #6A8E7F;
+    height: 100%;
+}
+.redes li{
+    list-style: none;
+    margin-top: 20px;
+}
+.redes ul{
+    margin-top: 20px;
+}
+.redes .insta{
+    margin-top: 100px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    margin-left: 350px;
+  
+}
+.links li{
+    list-style: none;
+  
+}
+.links a{
+    text-decoration: none;
+    color: white;  
+}
+.mapita{
+    margin-top: -20%;
+    margin-left: 76%;
+}
+
+
+
+
+
+

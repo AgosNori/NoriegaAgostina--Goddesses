@@ -1,243 +1,319 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 
-*{
-    font-family:  'Kanit', sans-serif;
+* {
+    font-family: 'Kanit', sans-serif;
 }
+
 /* estilos header */
 
 .navbar {
     background-color: #6A8E7F;
-    width: auto;
-    height: 60px;
-}
+    height: 80px;
 
-ul {
-    margin-left: 76px;
-}
-
-nav li {
-    float: left;
-    list-style: none;
-
-
-}
-
-.navbar ul li a {
-    list-style: none;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    margin-top: 17px;
-    margin-left: 40px;
-
-}
-.navbar ul li .prod{
-    margin-top: -2px;
 }
 
 .logo {
-    width: 16%;
-    margin-left: 607px;
-    margin-top: -13%;
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: -60px;
 }
 
-.navbar2 ul li a {
-    list-style: none;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    display: flex;
-    margin-left: 40px;
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
 
 }
 
-.navbar2 {
-    margin-top: -192px;
-    margin-left: 1000px;
-}
-/* detalle del producto */
-.card {
-    cursor: pointer;
-    width: 1000px;
-    height: 500px;
-    background: #D5ECD4;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-   
-    margin-left: 240px;
-    margin-top: 50px;
-}
-.imagen{
-    margin-left: 60px;
-    margin-top: 100px;
-}
-/* estilos boton "register" */
-.registrarse {
-    margin-top: -7px;
-    --b: 1.5px;
-    /* border thickness */
-    --s: .40em;
-    /* size of the corner */
-    --color: #262626;
-
-    padding: calc(.2em + var(--s)) calc(.9em + var(--s));
-    color: var(--color);
-    --_p: var(--s);
-    background:
-        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-    transition: .3s linear, color 0s, background-color 0s;
-    outline: var(--b) solid #0000;
-    outline-offset: .6em;
-    font-size: 15px;
-
-    border: 0;
-
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-
-.registrarse:hover,
-.registrarse:focus-visible {
-    --_p: 0px;
-    outline-color: var(--color);
-    outline-offset: .08em;
-    background-color: white;
-    color: black;
-}
-
-.registrarse:active {
-    background-color: var(--color);
+a {
     color: white;
+
 }
 
-/* estilos items */
-.items1{
+.menu-desp {
+    float: right;
+}
+
+/* botones para el menu desplegable */
+.checkbtn {
+    float: right;
+    padding: 10px;
+
+}
+
+#check {
+    float: right;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.checkbtn {
+    font-size: 20px;
+    float: right;
+    display: none;
+    line-height: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#check {
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    /* centramos el icono*/
+    margin-right: 40px;
     cursor: pointer;
+    display: none;
+    /* solo se tiene que ver endipositivos pequeños no en descktop*/
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+.items{
+    align-items:center ;
     width: 80%;
-    height: 254px;
+    
+}
+.items1 {
+    cursor: pointer;
+    width: auto;
+    height: auto;
     background: rgb(255, 255, 255);
     border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    margin-left: 140px;
-    margin-top: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.209);
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: 10px;
+    background: white;
+    display: flex;
+    
 }
 
-.imgcarrito{
-    width: 100px;
-    margin-left: 100px;
-    margin-top: 20px;
+
+.imgcarrito {
+    width: 15%;
+    height: 180px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 10px;
+    
 }
 
 .descrip{
     width: 30%;
-   text-justify: auto;
-   margin-left: 25%;
-   margin-top: -12%;
+   text-align: left;
+     padding: 30px;
 }
 
 .cantidad h2{
-    margin-top: -8%;
-    margin-left: 66%;
+    margin-top: -80px;
+    margin-left: 90%;
 }
+
 .precio h2{
-    margin-top: -110px;
-    margin-left: 85%;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 .precio h3{
-    margin-top:50px;
-    margin-left: 85.5%;
-}
-
-.botoncitos{
+    align-items: center;
+    padding: 10px;
     display: flex;
-    margin-left:66%;
-    margin-top:40px;
-}
-.menos{
-    background-color:#6A8E7F ;
-    border: none;
-    width: 40px;
-    height: 30px;
-    color: white;
-    border-radius: 10px;
-}
-.mas{
-    margin-left: 30px;
-    background-color:#6A8E7F ;
-    border: none;
-    width: 40px;
-    height: 30px;
-    color: white;
-    border-radius: 10px;
-}
-.botoncitos p{
-    margin-left: 30px;
+margin-left:150px;
 }
 
-/* items 2*/
-.items2{
-
-    cursor: pointer;
-    width: 80%;
-    height: 254px;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    margin-left: 140px;
-    margin-top: 30px;
-} /* estilos btn comprar y total */
-h1{
+h2 {
     font-weight: bolder;
     text-align: center;
     margin-top: 30px;
+    
 }
-.comprar .btncompra{
-    margin-left: 47%;
-    margin-top: 20px;
+.botoncitos{
+    display: flex;
+}
+.menos {
+    background-color: #6A8E7F;
+    border: none;
+    width: 40px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+ 
+    margin-left: -100px;
+}
+
+.mas {
+    margin-left: 30px;
+    background-color: #6A8E7F;
+    border: none;
+    width: 40px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+
+    margin-top: 100px;
+}
+.botoncitos p{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+
+.total h2
+    {margin-left: 10%;
+}
+
+.comprar .btncompra {
+margin-left: 50%;
+
     background-color: #6A8E7F;
     border: none;
     width: 100px;
     height: 40px;
     border-radius: 10px;
+  
 }
-.comprar .btncompra:hover{
+
+.comprar .btncompra:hover {
     transform: scale(1.2);
 }
+
+
+
 /* estilos footer */
-.redes{
-    flex-direction: column;
+
+.redes {
+    margin-top: 30px;
     background-color: #6A8E7F;
-    height: 100%;
+    height: 400px;
 }
-.redes li{
-    list-style: none;
-    margin-top: 20px;
-}
-.redes ul{
-    margin-top: 20px;
-}
-.redes .insta{
-    margin-top: 100px;
-}
-.links{
+
+ul {
     display: flex;
-    gap: 20px;
-    margin-left: 350px;
-  
+    padding: 10px;
 }
-.links li{
-    list-style: none;
-  
-}
-.links a{
-    text-decoration: none;
-    color: white;  
-}
-.mapita{
+
+.mapa {
+    float: right;
     margin-top: -20%;
-    margin-left: 76%;
-    border-radius: 20px;
+    margin-right: 40px;
+
+}
+
+.mapa .mapita {
+    border-radius: 10px;
+}
+
+.links {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sociales {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* flexbox */
+@media (max-width: 600px) {
+
+    /* estilos header */
+
+    .checkbtn {
+        display: block;
+        margin-top: -6px;
+
+    }
+
+    .navbar ul {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        background: #ebf0ee;
+        top: -70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .navbar nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;
+
+    }
+
+    a {
+        font-size: 20px;
+
+
+    }
+
+    header {
+        background-color: #6A8E7F;
+
+    }
+
+    #check:checked~ul {
+        left: 0;
+
+    }
+
+    .menu-desp {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    /* estilos tarjetas */
+  
+    .items{
+        display: block;
+        flex-direction: column;
+     }
+     .items1{
+        flex-direction: column;
+     }
+     .imgcarrito{
+        width: 90%;
+    
+     }
+     .descrip {
+        text-align: center;
+        width: 100%;
+     }
+     .precio h2, h3{
+        text-align: center;
+     }
+
+         /* estilos footer */
+    .redes {
+        display: flex;
+    }
+
+    .redes ul li img {
+        left: 0;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    .mapita{
+        margin-top: -110px;
+        margin-left: 130px;
+      display: flex;
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+    }
+    .links{
+       display: none;
+    }
 }

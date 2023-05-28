@@ -49,7 +49,8 @@ a {
     padding: 10px;
     margin-top: 30px;
 }
-.checkbtn{
+
+.checkbtn {
     font-size: 20px;
     float: right;
     display: none;
@@ -58,47 +59,43 @@ a {
     margin-bottom: 10px;
 }
 
-#check{
+#check {
     font-size: 20px;
     color: #fff;
     float: right;
-    line-height: 80px;/* centramos el icono*/
+    line-height: 80px;
+    /* centramos el icono*/
     margin-right: 40px;
     cursor: pointer;
-    display: none;/* solo se tiene que ver endipositivos pequeños no en descktop*/
+    display: none;
+    /* solo se tiene que ver endipositivos pequeños no en descktop*/
 }
 
-.link{
-    color:black;
-    text-decoration:none;
+.link {
+    color: black;
+    text-decoration: none;
 }
-.link:hover{
-    background-color: white;
-    color:blue;
-    font-size: 19px;
-    border: solid 1px black;
-    border-radius: 5px;
-    padding: 2.4px;
-}
+
 
 /* BANNER */
-.banner-img{
+.banner-img {
     margin-top: -73px;
-    position: sticky;
+    position: initial;
 }
 
 /* estilos tarjetas */
 
-.principal{
 
+.tarjetas {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
- 
- 
+    margin-left: -50px;
+
 }
+
 h1 {
     text-align: center;
+    margin: 20px;
 }
 
 .card {
@@ -110,8 +107,9 @@ h1 {
     border: 1px solid rgba(0, 0, 255, .2);
     transition: all .2s;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin-left: 203px;
+    margin-left: 150px;
     margin-top: 30px;
+    align-content: center;
 }
 
 .card:hover {
@@ -154,200 +152,52 @@ h1 {
 
 }
 
-/*tarjeta2 */
+/* estilos footer */
 
-.card2 {
-    cursor: pointer;
-    width: 250px;
-    height: 254px;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin-left: 480px;
-    margin-top: -253px;
+.redes {
+margin-top: 30px;
+    background-color: #6A8E7F;
+    height: 400px;
 }
 
-.card2:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+ul {
+    display: flex;
+    padding: 10px;
 }
 
-/* tarjeta 3 */
-
-.card3 {
-    cursor: pointer;
-    width: 250px;
-    height: 254px;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin-left: 760px;
-    margin-top: -253px;
+.mapa {
+    float: right;
+   margin-top: -20%;
+   margin-right: 40px;
+   
+}
+.mapa .mapita{
+border-radius: 10px;
 }
 
-.card3:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+.links{
+    justify-content: center;
+    align-items: flex-end;
 }
-
-/* tarjeta 4 */
-
-.card4 {
-    cursor: pointer;
-    width: 250px;
-    height: 254px;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin-left: 1040px;
-    margin-top: -253px;
-}
-
-.card4:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
-}
-
-.imagen-4 {
-    margin-left: 20px;
-}
-
-/* tarjeta 5 */
-.card5 {
-    cursor: pointer;
-    width: 250px;
-    height: 254px;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin-left: 203px;
-    margin-top: 20px;
-}
-
-.card5:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
-}
-
-/* tarjeta 6 */
-.card6 {
-    cursor: pointer;
-    width: 250px;
-    height: 254px;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin-left: 480px;
-    margin-top: -250px;
-}
-
-.card6:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
-}
-
-/* tarjeta 7 */
-.card7 {
-    cursor: pointer;
-    width: 250px;
-    height: 254px;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin-left: 760px;
-    margin-top: -250px;
-}
-
-
-.card7:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
-}
-
-/* tarjeta 8 */
-.card8 {
-    cursor: pointer;
-    width: 250px;
-    height: 254px;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin-left: 1040px;
-    margin-top: -250px;
-}
-
-
-.card8:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
-}
-
-/* estilos boton "register" 
-.registrarse {
-    margin-top: -7px;
-    --b: 1.5px;
-    /* border thickness 
-    --s: .40em;
-    /* size of the corner 
-    --color: #262626;
-
-    padding: calc(.2em + var(--s)) calc(.9em + var(--s));
-    color: var(--color);
-    --_p: var(--s);
-    background:
-        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-    transition: .3s linear, color 0s, background-color 0s;
-    outline: var(--b) solid #0000;
-    outline-offset: .6em;
-    font-size: 15px;
-
-    border: 0;
-
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-
-.registrarse:hover,
-.registrarse:focus-visible {
-    --_p: 0px;
-    outline-color: var(--color);
-    outline-offset: .08em;
-    background-color: white;
-    color: black;
-}
-
-.registrarse:active {
-    background-color: var(--color);
-    color: white;
+.sociales{
+    display: flex;
+    flex-direction: column;
 }
 
 /* estilos footer 
-.redes {
-    flex-direction: column;
-    background-color: #6A8E7F;
-    height: 100%;
+footer{
+    margin-top: 30px;
 }
 
-.redes li {
-    list-style: none;
-    margin-top: 20px;
+
+footer .redes img{
+
+        display: inline-block;
+    
 }
 
-.redes ul {
-    margin-top: 20px;
-}
 
-.redes .insta {
-    margin-top: 100px;
-}
+
 
 .links {
     display: flex;
@@ -358,7 +208,6 @@ h1 {
 
 .links li {
     list-style: none;
-
 }
 
 .links a {
@@ -367,77 +216,92 @@ h1 {
 }
 
 .mapita {
-    margin-top: -20%;
+    margin:-30px;
     margin-left: 76%;
     border-radius: 20px;
 }
-*/
-/* btn check 
-.checkbtn {
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
 
-#check {
-    display: none;
-}
-*/
+
 
 /* flexbox */
 @media (max-width: 600px) {
 
     /* estilos header */
 
-    .checkbtn{
-        display:block;
-      margin-top: -6px;
-  
+    .checkbtn {
+        display: block;
+        margin-top: -6px;
+
     }
-    ul{
-        position: relative ;
+
+    .navbar ul {
+        position: relative;
         width: 100%;
         height: 100vh;
-        background:#ebf0ee;
+        background: #ebf0ee;
         top: 80px;
         left: -100%;
         text-align: center;
         transition: all .5s;
-        background-color: aqua;
-     
     }
-    nav ul li{
-        display:block;
+
+    .navbar nav ul li {
+        display: block;
         margin: 50px 0;
         line-height: 20px;
-       
+
     }
-    a{
+
+    a {
         font-size: 20px;
-     
-     
-    } 
+
+
+    }
 
     header {
         background-color: #6A8E7F;
-       
+
     }
-    #check:checked~ul{
+
+    #check:checked~ul {
         left: 0;
-      
+
     }
-   
-  /* estilos banner */
-  .banner-img{
-    align-items:flex-start;
 
-}
-/* estilos tarjetas */
+    /* estilos banner */
+
+    /* estilos tarjetas */
+    .principal .tarjetas .card {
+        justify-content: center;
+    }
 
 
+    /* estilos footer */
+    .redes {
+        display: flex;
+    }
 
+    .redes ul li img {
+        left: 0;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    .mapita{
+        margin-top: -430px;
+        margin-left: 130px;
+      display: flex;
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+    }
+    .links{
+        text-align: center;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
 }
 
 /*

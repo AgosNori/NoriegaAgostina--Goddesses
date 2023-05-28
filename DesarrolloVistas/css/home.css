@@ -13,62 +13,90 @@
 
 .navbar {
     background-color: #6A8E7F;
-    width: auto;
-    height: 60px;
-}
+    height: 80px;
 
-ul {
-    margin-left: 76px;
-}
-
-nav li {
-    float: left;
-    list-style: none;
-
-
-}
-
-.navbar ul li a {
-    list-style: none;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    margin-top: 17px;
-    margin-left: 40px;
-
-}
-
-.navbar ul li .prod {
-    margin-top: -2px;
 }
 
 .logo {
-    width: 16%;
-    margin-left: 607px;
-    margin-top: -13%;
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: -60px;
 }
 
-.navbar2 ul li a {
-    list-style: none;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    display: flex;
-    margin-left: 40px;
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    float: right;
+}
+
+a {
+    color: white;
 
 }
 
-.navbar2 {
-    margin-top: -192px;
-    margin-left: 1000px;
+/* botones para el menu desplegable */
+.checkbtn {
+    float: right;
+    padding: 10px;
+
 }
 
-/* estilos banner */
-.banner-img {
-    margin-top: 9px;
+#check {
+    float: right;
+    padding: 10px;
+    margin-top: 30px;
+}
+.checkbtn{
+    font-size: 20px;
+    float: right;
+    display: none;
+    line-height: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#check{
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    line-height: 80px;/* centramos el icono*/
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;/* solo se tiene que ver endipositivos pequeños no en descktop*/
+}
+
+.link{
+    color:black;
+    text-decoration:none;
+}
+.link:hover{
+    background-color: white;
+    color:blue;
+    font-size: 19px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 2.4px;
+}
+
+/* BANNER */
+.banner-img{
+    margin-top: -73px;
+    position: sticky;
 }
 
 /* estilos tarjetas */
 
+.principal{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+ 
+ 
+}
 h1 {
     text-align: center;
 }
@@ -126,7 +154,7 @@ h1 {
 
 }
 
-/*tarjeta2*/
+/*tarjeta2 */
 
 .card2 {
     cursor: pointer;
@@ -145,7 +173,7 @@ h1 {
     box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
 }
 
-/* tarjeta 3*/
+/* tarjeta 3 */
 
 .card3 {
     cursor: pointer;
@@ -164,7 +192,7 @@ h1 {
     box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
 }
 
-/* tarjeta 4*/
+/* tarjeta 4 */
 
 .card4 {
     cursor: pointer;
@@ -261,13 +289,13 @@ h1 {
     box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
 }
 
-/* estilos boton "register" */
+/* estilos boton "register" 
 .registrarse {
     margin-top: -7px;
     --b: 1.5px;
-    /* border thickness */
+    /* border thickness 
     --s: .40em;
-    /* size of the corner */
+    /* size of the corner 
     --color: #262626;
 
     padding: calc(.2em + var(--s)) calc(.9em + var(--s));
@@ -301,7 +329,7 @@ h1 {
     color: white;
 }
 
-/* estilos footer */
+/* estilos footer 
 .redes {
     flex-direction: column;
     background-color: #6A8E7F;
@@ -343,8 +371,8 @@ h1 {
     margin-left: 76%;
     border-radius: 20px;
 }
-
-/* btn check */
+*/
+/* btn check 
 .checkbtn {
     float: right;
     line-height: 80px;
@@ -356,85 +384,65 @@ h1 {
 #check {
     display: none;
 }
+*/
 
 /* flexbox */
 @media (max-width: 600px) {
 
     /* estilos header */
-    .navbar {
-        display: none;
-    }
 
-    .navbar2 {
-        display: none;
+    .checkbtn{
+        display:block;
+      margin-top: -6px;
+  
     }
+    ul{
+        position: relative ;
+        width: 100%;
+        height: 100vh;
+        background:#ebf0ee;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        background-color: aqua;
+     
+    }
+    nav ul li{
+        display:block;
+        margin: 50px 0;
+        line-height: 20px;
+       
+    }
+    a{
+        font-size: 20px;
+     
+     
+    } 
 
     header {
         background-color: #6A8E7F;
-        height: 30px;
+       
     }
-
-    .logo {
-        margin: 0;
-        margin-left: 14px;
-        margin-top: -20px;
-        justify-items: center;
-        width: 50px;
-    }
-
-    /* estilos banner */
-    .banner {
-        margin-top: -10px;
-    }
-
-    /* estilos tarjetas */
-   
-
-    #tarjetas h1 {
-        font-size: 20px;
+    #check:checked~ul{
+        left: 0;
+      
     }
    
+  /* estilos banner */
+  .banner-img{
+    align-items:flex-start;
+
 }
-    /*
+/* estilos tarjetas */
+
+
+
+}
+
+/*
  
-        width: 210px;
-        height: 200px;
-        margin: 30px;
-    }
-    .card img{
-        width: 70px;
-    }
-   .boton{
-        width: 60px;
-        height: 20px;
-        font-size: 13px;
-        border-radius: 10px;
-    }
-    .boton-info{
-        width: 60px;
-        height: 20px;
-        font-size: 13px;
-        border-radius: 10px;
-    }
-    #tarjetas .card2{
-        width: 210px;
-        height: 200px;
-        margin: 0;
-        margin-left: 300px;
-        margin-top: -230px;
-    }
-    .card2 img{
-        width: 90px;
-    }
-    #tarjetas .card3{
-        width: 210px;
-        height: 200px;
-        margin: 0;
-        margin-left: 30px;
 
-    } 
-
-}
 
 @media (min-width:601px) {
     * {

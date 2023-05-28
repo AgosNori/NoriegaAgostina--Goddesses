@@ -267,6 +267,11 @@ footer .redes img{
         left: 0;
 
     }
+    .menu-desp{
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+    }
 
     /* estilos banner */
 
@@ -289,7 +294,7 @@ footer .redes img{
         height: auto;
     }
     .mapita{
-        margin-top: -430px;
+        margin-top: -110px;
         margin-left: 130px;
       display: flex;
         width: 200px;
@@ -297,10 +302,7 @@ footer .redes img{
         justify-content: center;
     }
     .links{
-        text-align: center;
-        flex-direction: column;
-        width: auto;
-        height: auto;
+       display: none;
     }
 }
 

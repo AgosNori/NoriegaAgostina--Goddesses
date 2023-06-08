@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: #e5e5f7;
+    opacity: 0.7;
+    background-image: radial-gradient(#638168 2px, transparent 2px), radial-gradient(#638168 2px, #e5e5f7 2px);
+    background-size: 80px 80px;
+    background-position: 0 0, 40px 40px;
+}
+
+/*estilos header */
+.logo-empresa {
+    display: flex;
+    justify-content: center;
+}
+
+header .navbar .logo-empresa .logo {
+    width: 50%;
+    margin-top: 5px;
+}
+
+.navbar {
+    background-color: #638168;
+    height: auto;
+
+
+}
+
+.navbar ul li {
+    flex-direction: column;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ 
+
+}
+
+/* estilos formulario */
+.formulario {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-top: 100px;
+}
+
+form {
+    width: 70%;
+    border: 3px solid grey;
+    background-color: #b5bab5;
+}
+
+form ul li {
+    list-style: none;
+}
+
+form .text-header h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.descrip p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.inputs {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.inputs .input{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-login button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.boton-login {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* estilos footer */
+
+footer {
+    background-color: #638168;
+  margin-top: 140px;
+}
+
+.redes ul li {
+    list-style: none;
+
+}
+
+.redes ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+ion-icon {
+    color: white;
+}
+
+.mapa iframe {
+    width: 200px;
+    height: 100px;
+
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.copyrigth {
+    color: white;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+}
+
+/* media query header */
+
+@media (min-width:400px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.menu ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        gap: 5px;
+        margin-right: 10px;
+    }
+
+
+    header .navbar .logo-empresa .logo {
+        display: flex;
+        width: 60px;
+        height: 30px;
+        margin-right: 50px;
+        margin-left: 10px;
+
+    }
+}

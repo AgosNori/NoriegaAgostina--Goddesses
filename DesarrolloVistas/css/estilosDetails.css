@@ -1,13 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 
-/* estilos universales */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
 }
-/* estilos header */
+
+/*estilos header */
+.logo-empresa {
+    display: flex;
+    justify-content: center;
+}
+
+header .navbar .logo-empresa .logo {
+    width: 50%;
+}
+
+.navbar {
+    background-color: #638168;
+    height: auto;
+
+
+}
+
+.navbar ul li {
+    flex-direction: column;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* estilos tarjetas details */
+
+.details{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    cursor: pointer;
+    width: 90%;
+    height: 500px;
+    background: #D5ECD4;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    margin-top: 30px;
+
+
+}
+
+.card-descripcion {
+    cursor: pointer;
+    width: 90px;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+
+
+}
+
+h3 {
+ 
+}
+
+h2 {
+    text-align: center;
+    margin-top: -40px;
+}
+
+p {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* estilos footer */
+
+footer {
+    background-color: #638168;
+    margin-top: 140px;
+}
+
+.redes ul li {
+    list-style: none;
+
+}
+
+.redes ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+ion-icon {
+    color: white;
+}
+
+.mapa iframe {
+    width: 200px;
+    height: 100px;
+
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.copyrigth {
+    color: white;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* media query header */
+
+@media (min-width:400px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.menu ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        gap: 5px;
+        margin-right: 10px;
+    }
+
+
+    header .navbar .logo-empresa .logo {
+        display: flex;
+        width: 60px;
+        height: 30px;
+        margin-right: 50px;
+        margin-left: 10px;
+
+    }
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+/* estilos universales 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+/* estilos header 
 
 .navbar {
     background-color: #6A8E7F;
@@ -55,50 +215,15 @@ nav li {
     margin-top: -192px;
     margin-left: 1000px;
 }
-/* detalle del producto */
-.card {
-    cursor: pointer;
-    width: 1000px;
-    height: 500px;
-    background: #D5ECD4;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-   
-    margin-left: 240px;
-    margin-top: 50px;
-}
+/* detalle del producto 
+
 .imagen{
     margin-left: 60px;
     margin-top: 100px;
 }
-/* estilos card descripcion */
-.card-descripcion{
-        cursor: pointer;
-        width: 700px;
-        height: 200px;
-        background: #ffffff;
-        border-radius: 10px;
-        border: 1px solid rgba(0, 0, 255, .2);
-        transition: all .2s;
-       
-        margin-left: 450px;
-        margin-top: -350px; 
-}
-h3{
-    margin-left: 30px;
-}
-h2{
-    text-align:center;
-    margin-top: -40px;
-}
-p{
-    width: 90%;
-    margin-left: 30px;
-    margin-top: 10px;
-    text-align: justify;
-}
-/* estilos boton agregar al carrito */
+/* estilos card descripcion 
+
+/* estilos boton agregar al carrito 
 .buy{
     background-color: #6A8E7F;
     width: 200px;
@@ -113,7 +238,7 @@ p{
     box-shadow: -3px 3px 0px -0.2px rgba(0, 0, 255, .2);
     transform:scale(1.1) ;
 }
-/* estilos footer */
+/* estilos footer 
 .redes{
     flex-direction: column;
     background-color: #6A8E7F;
@@ -149,13 +274,13 @@ p{
     margin-left: 76%;
     border-radius: 20px;
 }
-/* estilos boton "register" */
+/* estilos boton "register" 
 .registrarse {
     margin-top: -7px;
     --b: 1.5px;
-    /* border thickness */
+    /* border thickness 
     --s: .40em;
-    /* size of the corner */
+    /* size of the corner 
     --color: #262626;
 
     padding: calc(.2em + var(--s)) calc(.9em + var(--s));
@@ -188,8 +313,3 @@ p{
     background-color: var(--color);
     color: white;
 }
-
-
-
-
-

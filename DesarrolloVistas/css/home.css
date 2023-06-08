@@ -1,7 +1,5 @@
-/* tipografia */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 
-/* estilos universales */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +7,201 @@
     font-family: 'Kanit', sans-serif;
 }
 
-/* estilos header */
+/*
+body {
+    background-color: #e5e5f7;
+    opacity: 0.7;
+    background-image: radial-gradient(#638168 2px, transparent 2px), radial-gradient(#638168 2px, #e5e5f7 2px);
+    background-size: 80px 80px;
+    background-position: 0 0, 40px 40px;
+}
+
+/*estilos header */
+.logo-empresa {
+    display: flex;
+    justify-content: center;
+}
+
+header .navbar .logo-empresa .logo {
+    width: 50%;
+}
+
+.navbar {
+    background-color: #638168;
+    height: auto;
+
+
+}
+
+.navbar ul li {
+    flex-direction: column;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* estilos tarjetas */
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.titulo-tarj h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.item {
+    cursor: pointer;
+    width: 200px;
+    height: 240px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    align-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+button{
+    background-color: #638168;
+    border: none;
+    border-radius: 10px;
+   margin: 3px;
+   color: white;
+    
+}
+
+.boton-comprar{
+    width: 90px;
+}
+.boton-info{
+    width: 90px;
+}
+
+/* estilos footer */
+
+footer {
+    background-color: #638168;
+    margin-top: 140px;
+}
+
+.redes ul li {
+    list-style: none;
+
+}
+
+.redes ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+ion-icon {
+    color: white;
+}
+
+.mapa iframe {
+    width: 200px;
+    height: 100px;
+
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.copyrigth {
+    color: white;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* media query header */
+
+@media (min-width:400px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.menu ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        gap: 5px;
+        margin-right: 10px;
+    }
+
+
+    header .navbar .logo-empresa .logo {
+        display: flex;
+        width: 60px;
+        height: 30px;
+        margin-right: 50px;
+        margin-left: 10px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tipografia
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+/* estilos universales
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* estilos header 
 
 .navbar {
     background-color: #6A8E7F;
@@ -40,7 +232,7 @@ a {
 
 }
 
-/* botones para el menu desplegable */
+/* botones para el menu desplegable 
 .checkbtn {
     float: right;
     padding: 10px;
@@ -67,11 +259,11 @@ a {
     color: #fff;
     float: right;
     line-height: 80px;
-    /* centramos el icono*/
+    /* centramos el icono
     margin-right: 40px;
     cursor: pointer;
     display: none;
-    /* solo se tiene que ver endipositivos pequeños no en descktop*/
+    /* solo se tiene que ver endipositivos pequeños no en descktop
 }
 
 .link {
@@ -80,13 +272,13 @@ a {
 }
 
 
-/* BANNER */
+/* BANNER 
 .banner-img {
     margin-top: -73px;
     position: initial;
 }
 
-/* estilos tarjetas */
+/* estilos tarjetas 
 
 
 .tarjetas {
@@ -155,7 +347,7 @@ h1 {
 
 }
 
-/* estilos footer */
+/* estilos footer 
 
 .redes {
 margin-top: 30px;
@@ -226,10 +418,10 @@ footer .redes img{
 
 
 
-/* flexbox */
+/* flexbox 
 @media (max-width: 600px) {
 
-    /* estilos header */
+    /* estilos header 
 
     .checkbtn {
         display: block;
@@ -278,13 +470,13 @@ footer .redes img{
 
     /* estilos banner */
 
-    /* estilos tarjetas */
+/* estilos tarjetas 
     .principal .tarjetas .card {
         justify-content: center;
     }
 
 
-    /* estilos footer */
+    /* estilos footer 
     .redes {
         display: flex;
     }

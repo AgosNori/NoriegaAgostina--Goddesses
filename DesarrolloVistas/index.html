@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goddesses</title>
     <link rel="stylesheet" href="css/reset.css">
@@ -14,121 +13,109 @@
     <!-- HEADER -->
     <header>
         <nav class="navbar">
-            <img class="logo" src="imagenes/logo.png">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <ion-icon name="menu-outline"></ion-icon>
-            </label>
-            <ul class="menu-desp">
-                <li><a class="link" href="index.html">Home</li>
-                <li><a class="prod link" href="html/details.html">Productos</a></li>
-                <li><a class="link" href="html/details.html">Carrito</a></li>
-                <li><a class="link" href="#">Carrito</a></li>
-                <li><a class="link" href="#">Ingresar</a></li>
-                <li><a class="registrarse link " href="#">Registrarse</a></li>
-            </ul>
+            <div class="logo-empresa">
+                <img class="logo" src="imagenes/logo2.png" >
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="link" href="index.html">Home</li>
+                    <li><a class="prod link" href="html/details.html">Productos</a></li>
+                    <li><a class="link" href="html/carrito.html">Carrito</a></li>
+                    <li><a class="link" href="html/login.html">Ingresar</a></li>
+                    <li><a class="registrarse link " href="html/register.html">Registrarse</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <!-- BANNER -->
     <section class="banner">
-        <img class="banner-img" src="imagenes/banner4.jpg" width="100%" />
+        <div class="banner-empresa">
+            <img src="imagenes/banner2.jpg">
+        </div>
     </section>
-    <!--TARJETAS  -->
-    <main class="principal">
-        <h1>Lista de productos</h1>
-        <section class="tarjetas">
-            <div class="card ">
-                <div class="img">
-                    <img class="imagen" src="imagenes/aceite.jpg" width="40%" />
-                </div>
-                <button class="boton">Comprar</button>
+    <!-- TARJETAS -->
+    <div class="titulo-tarj">
+        <h2>Nuestros productos</h2>
+    </div>
+    <section class="card">
+        <div class="item">
+            <div class="img">
+                <img class="imagen" src="imagenes/antiage.webp">
+            </div>
+            <div class="botones">
+                <button class="boton-comprar">Comprar</button>
                 <button class="boton-info">+ info</button>
             </div>
-
-            <div class="card">
-                <div class="img">
-                    <img class="imagen" src="imagenes/mascara.jpg" width="51%" />
-                </div>
-                <button class="boton">Comprar</button>
-                <button class="boton-info">+ Info</button>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img class="imagen" src="imagenes/aceite.jpg" width="95px">
             </div>
-
-            <div class="card">
-                <div class="img">
-                    <img class="imagen" src="imagenes/serum.jpg" width="40%" />
-                </div>
-                <button class="boton">Comprar</button>
-                <button class="boton-info">+ Info</button>
-            </div>
-
-            <div class="card">
-                <div class="img">
-                    <img class="imagen-4" src="imagenes/hidratante.jpg" width="80%" />
-                </div>
-                <button class="boton">Comprar</button>
-                <button class="boton-info">+ Info</button>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img class="imagen-4" src="imagenes/antiage.webp" width="80%" />
-                </div>
-                <button class="boton">Comprar</button>
-                <button class="boton-info">+ Info</button>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img class="imagen-4" src="imagenes/serumfacial.webp" width="80%" />
-                </div>
-                <button class="boton">Comprar</button>
-                <button class="boton-info">+ Info</button>
-            </div>
-            <div class="card ">
-                <div class="img">
-                    <img class="imagen-4" src="imagenes/cremafacial.webp" width="80%" />
-                </div>
-                <button class="boton">Comprar</button>
-                <button class="boton-info">+ Info</button>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img class="imagen-4" src="imagenes/protectorsolar.webp" width="80%" />
-                </div>
-                <button class="boton">Comprar</button>
-                <button class="boton-info">+ Info</button>
-            </div>
-        </section>
-    </main>
-
-    <!--    FOOTER--->
-
-    <footer  class="redes">
-        <div>
-            <ul class="sociales">
-                <li><a  href="https://www.instagram.com/"><img class="insta" 
-                            src="imagenes/iconmonstr-instagram-11.svg"></a></li>
-                <li><a  href="https://www.facebook.com/"><img
-                            src="imagenes/iconmonstr-facebook-1.svg" class="face"></a></li>
-                <li><a  href="https://twitter.com/home?lang=es"><img
-                            src="imagenes/iconmonstr-twitter-1.svg" class="twitt"></a></li>
-            </ul>
-            <ul class="links">
-                <li><a href="#">Dermocosmetica</a></li>
-                <li><a href="#">Belleza</a></li>
-                <li><a href="#">Cuidado personal</a></li>
-                <li><a href="#">Cuidado del cabello</a></li>
-            </ul>
-            <div class="mapa">
-                <iframe class="mapita"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73583.08026616921!2d-68.38520362482782!3d-54.80683524289915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c22b5bad109bf%3A0x5498473dba43ebfc!2sUshuaia%2C%20Tierra%20del%20Fuego!5e0!3m2!1ses-419!2sar!4v1684029900010!5m2!1ses-419!2sar"
-                    width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="botones">
+                <button class="boton-comprar">Comprar</button>
+                <button class="boton-info">+ info</button>
             </div>
         </div>
+        <div class="item">
+            <div class="img">
+                <img class="imagen" src="imagenes/hidratante.jpg">
+            </div>
+            <div class="botones">
+                <button class="boton-comprar">Comprar</button>
+                <button class="boton-info">+ info</button>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img  class="imagen" src="imagenes/cremafacial.webp">
+            </div>
+            <div class="botones">
+                <button class="boton-comprar">Comprar</button>
+                <button class="boton-info">+ info</button>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img class="imagen" src="imagenes/serumfacial.webp">
+            </div>
+            <div class="botones">
+                <button class="boton-comprar">Comprar</button>
+                <button class="boton-info">+ info</button>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img class="imagen" src="imagenes/serum.jpg" width="95px">
+            </div>
+            <div class="botones">
+                <button class="boton-comprar">Comprar</button>
+                <button class="boton-info">+ info</button>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="redes">
+            <ul>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></li>
+            </ul>
+        </div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73583.26043507922!2d-68.38520372114442!3d-54.80673630469288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c22b5bad109bf%3A0x5498473dba43ebfc!2sUshuaia%2C%20Tierra%20del%20Fuego!5e0!3m2!1ses-419!2sar!4v1686083973345!5m2!1ses-419!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="copyrigth">
+            <h6>Agostina Noriega © 2023</h6>
+        </div>
     </footer>
- 
-</body>
 
+</body>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
 </html>
